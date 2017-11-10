@@ -199,6 +199,10 @@
     <Compile Include="Migrations\201711101121118_UserFieldsAdded.Designer.cs">
       <DependentUpon>201711101121118_UserFieldsAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\ClubModelMigrations\201711101146000_ClubsAdded.cs" />
+    <Compile Include="Migrations\ClubModelMigrations\201711101146000_ClubsAdded.Designer.cs">
+      <DependentUpon>201711101146000_ClubsAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\ClubModelMigrations\Configuration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -218,6 +222,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Migrations\ClubModelMigrations\MigrationCommands.txt" />
+    <Content Include="Migrations\MigrationCommands.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -288,6 +294,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711101121118_UserFieldsAdded.resx">
       <DependentUpon>201711101121118_UserFieldsAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\ClubModelMigrations\201711101146000_ClubsAdded.resx">
+      <DependentUpon>201711101146000_ClubsAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
